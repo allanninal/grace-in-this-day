@@ -10,21 +10,27 @@
 ############################
 
 # Name of website
-title: My website
+title: Grace in this Day
+
+# Your tagline
+description: "Where Daily Life Meets Divine Grace"
 
 # Your name to show in the footer
-author: Some Person
+author: Allan Ninal
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Daily Reflections: "reflections"
+  Categories:
+    - Gospel Reflections: "gospel"
+    - Faith Life: "faithlife"
+    - Spiritual Growth: "growth"
+  Liturgical Calendar: "calendar"
+  About: "about"
+  Contact: "contact"
 
 ################
 # --- Logo --- #
@@ -52,19 +58,16 @@ round-avatar: true
 social-network-links:
   email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+  facebook: allan.ninal
+  github: allanninal
+  twitter: allannin
+  linkedin: allanninal
+  instagram: allan.ninal
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
-#  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -95,8 +98,8 @@ rss-description: This website is a virtual proof that I'm awesome
 share-links-active:
   twitter: true
   facebook: true
-  linkedin: true
-  vk: false
+  linkedin: false
+  email: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
@@ -106,7 +109,7 @@ url-pretty: "MyWebsite.com"
 title-on-all-pages: true
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
+excerpt_length: 100
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
@@ -126,25 +129,22 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "Catholic reflection, Daily Gospel, Christian living, Faith journey, Spiritual growth, Catholic blog, Daily mass readings, Catholic spirituality, Christian meditation, Bible reflection"
 
 ######################################
 # --- Colours / background image --- #
 ######################################
 
-# Personalize the colours in your website. Colour values can be any valid CSS colour
-
+# Colors - suggesting a more spiritual/contemplative palette
 page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+text-col: "#2C3E50"
+link-col: "#34495E"
+hover-col: "#7F8C8D"
+navbar-col: "#F8F9FA"
+navbar-text-col: "#2C3E50"
+footer-col: "#F8F9FA"
+footer-text-col: "#2C3E50"
+footer-link-col: "#34495E"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
